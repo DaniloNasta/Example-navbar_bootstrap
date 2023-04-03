@@ -1,0 +1,122 @@
+/* nav-link animation */
+.nav-link-custom:hover{
+    color: red;
+}
+/* nav-link animation */
+
+
+/* active */
+.navbar-active{
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+}
+/* active */
+
+
+/* search-bar */
+.search-container {
+	position: relative;
+	display: inline-block;
+	margin: 4px 2px;
+	height: 50px;
+	width: 50px;
+	vertical-align: bottom;
+}
+
+.search {
+	position: absolute;
+	left: 49px;
+	background-color: transparent;
+    color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+	outline: none;
+	padding: 0;
+	width: 0;
+	height: 100%;
+	z-index: 10;
+	transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+}
+
+.search:focus {
+	width: 200px;
+	padding: 0 16px 0 0;
+}
+
+.expand-left {
+	left: auto;
+	right: 49px;
+}
+
+.expand-left:focus {
+	padding: 0 0 0 16px;
+}
+
+.search-glass {
+	display: inline-block;
+	margin: 4px 2px;
+	background: transparent;
+	font-size: 14px;
+	padding-left: 32px;
+	padding-right: 32px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.search-glass:hover {
+	transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+	background: transparent;
+	color: red;
+}
+
+.search-expanded {
+	position: absolute;
+	font-size: 22px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.search:focus + .search-expanded {
+	transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+	background: transparent;
+    border-radius: 0px;
+}
+
+.mglass {
+	display: inline-block;
+	pointer-events: none;
+    font-size: 40px;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+}
+/* search-bar */
+
+
+/* dropdown-custom */
+.dropdown-item-custom:hover{
+    background: red;
+}
+/* dropdown-custom */
